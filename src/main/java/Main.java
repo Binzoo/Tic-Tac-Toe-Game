@@ -5,14 +5,12 @@ import java.util.Scanner;
 public class Main {
     private static int row;
     private static int colum;
-    //0,0     0,2      0,4
+   
     private static final String[][] draw = {{" ", "|", " ", "|", " "},
-            {"-", "-", "-", "-", "-"},
-            //1,5      1,7      1,9
-            {" ", "|", " ", "|", " "},
-            {"-", "-", "-", "-", "-"},
-            //2,10       2,12      2,14
-            {" ", "|", " ", "|", " "}};
+                                            {"-", "-", "-", "-", "-"}, 
+                                            {" ", "|", " ", "|", " "},
+                                            {"-", "-", "-", "-", "-"},
+                                            {" ", "|", " ", "|", " "}};
 
     static ArrayList<Integer> usedNumber = new ArrayList<>();
 
